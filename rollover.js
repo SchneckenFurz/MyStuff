@@ -1,0 +1,1 @@
+function rollover(id="", img1="",img2="") {$(id).mouseover(function(){$(id).attr("src", img2)});$(id).mouseleave(function(){$(id).attr("src", img1)})};rollover(id="#Penis",img2="./Media/image1.jpg", img1="./Media/image2.jpg");rollover(id="#VaginalEingang", img2="./Media/image3.jpg", img1="./Media/image4.jpg");
